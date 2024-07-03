@@ -13,20 +13,7 @@ This is a Todo List application built using React, Redux, and Material-UI. It al
 
 ## Project Structure
 
-todo-list-app/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── TaskInput.js
-│   │   └── TaskList.js
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   ├── store.js
-│   └── taskSlice.js
-├── .gitignore
-├── package.json
-└── README.md
+
 
 ## Installation
 
@@ -56,6 +43,9 @@ To run this project locally, follow these steps:
     npm start
     ```
 
+## Project Structure
+
+![Project Structure](https://res.cloudinary.com/dejvgjqgh/image/upload/v1719997216/project_structure_pqnd4u.png)
 
 # Functionality
 
