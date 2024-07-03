@@ -11,6 +11,23 @@ This is a Todo List application built using React, Redux, and Material-UI. It al
 - Mark tasks as completed without deleting.
 - Persist tasks in local storage for data persistence across page reloads.
 
+## Project Structure
+
+todo-list-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TaskInput.js
+│   │   └── TaskList.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── store.js
+│   └── taskSlice.js
+├── .gitignore
+├── package.json
+└── README.md
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -33,14 +50,11 @@ To run this project locally, follow these steps:
     npm install
     npm install @reduxjs/toolkit react-redux @mui/material @emotion/react @emotion/styled @mui/icons-material
     ```
+4. Run the application:
 
-## Usage
-
-Once installed, you can run the application using:
-
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 
 
 # Functionality
