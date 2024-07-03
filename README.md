@@ -78,4 +78,4 @@ To run this project locally, follow these steps:
 
 
 ## Live Demo
-A live demo of the application can be accessed [https://tjtodoapp.ccbp.tech](#).
+A live demo of the application can be accessed [here](https://tjtodoapp.ccbp.tech/).
