@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Todo List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Todo List application built using React, Redux, and Material-UI. It allows users to manage tasks with functionalities such as adding, viewing, editing, deleting, and marking tasks as completed.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add a new task.
+- View all tasks in a list format.
+- Delete tasks from the list.
+- Edit tasks directly from the list.
+- Mark tasks as completed without deleting.
+- Persist tasks in local storage for data persistence across page reloads.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+    ```bash
+    git clone https://github.com/tjmanoj/todo-app.git
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate into the project directory:
 
-### `npm run build`
+    ```bash
+    cd todo-app
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm install
+    npm install @reduxjs/toolkit react-redux @mui/material @emotion/react @emotion/styled @mui/icons-material
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+Once installed, you can run the application using:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Functionality
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Adding a Task
+- Enter a task description into the input field under "Add a new task".
+- Press the "Add Task" button or hit Enter to add the task to the list.
 
-## Learn More
+## Viewing Tasks
+- All added tasks are displayed in a list format under the input field.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deleting a Task
+- Each task in the list has a delete button (trash icon). Clicking this button will remove the task from the list.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Editing a Task
+- Each task in the list has an edit button (pencil icon). Clicking this button will open a dialog box where you can edit the task's description.
+- Click "Save" to save the edited task or "Cancel" to discard changes.
 
-### Code Splitting
+## Marking a Task as Completed
+- Each task in the list has a checkbox. Check or uncheck the checkbox to mark the task as completed or incomplete, respectively.
+- Completed tasks are displayed with a strikethrough text decoration.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Persisting Tasks
+- Tasks are saved to local storage, allowing them to persist even after the page is reloaded.
 
-### Analyzing the Bundle Size
+# Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **React**: A JavaScript library for building user interfaces.
+- **Redux**: A predictable state container for JavaScript apps.
+- **Material-UI**: A popular React UI framework for designing applications with a unified design language.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Live Demo
+A live demo of the application can be accessed [https://tjtodoapp.ccbp.tech](#).
