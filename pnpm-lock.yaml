@@ -1,8 +1,8 @@
 dependencies:
   '@emotion/react': 11.11.4_react@18.3.1
   '@emotion/styled': 11.11.5_05d97456fd23f20ce680d51e0c1d6761
-  '@mui/icons-material': 5.15.21_8c6b3ece741e76b01966858be4d369f7
-  '@mui/material': 5.15.21_5f1b0501316ce2e9f127319362e3863c
+  '@mui/icons-material': 5.16.0_c1ac960125f325e1a774f8f742694be4
+  '@mui/material': 5.16.0_5f1b0501316ce2e9f127319362e3863c
   '@reduxjs/toolkit': 2.2.6_react-redux@9.1.2+react@18.3.1
   '@testing-library/jest-dom': 5.17.0
   '@testing-library/react': 13.4.0_react-dom@18.3.1+react@18.3.1
@@ -2314,7 +2314,7 @@ packages:
       '@babel/runtime': 7.24.7
       '@floating-ui/react-dom': 2.1.1_react-dom@18.3.1+react@18.3.1
       '@mui/types': 7.2.14
-      '@mui/utils': 5.15.20_react@18.3.1
+      '@mui/utils': 5.16.0_react@18.3.1
       '@popperjs/core': 2.11.8
       clsx: 2.1.1
       prop-types: 15.8.1
@@ -2332,14 +2332,14 @@ packages:
         optional: true
     resolution:
       integrity: sha512-I/lGHztkCzvwlXpjD2+SNmvNQvB4227xBXhISPjEaJUXGImOQ9f3D2Yj/T3KasSI/h0MLWy74X0J6clhPmsRbQ==
-  /@mui/core-downloads-tracker/5.15.21:
+  /@mui/core-downloads-tracker/5.16.0:
     dev: false
     resolution:
-      integrity: sha512-dp9lXBaJZzJYeJfQY3Ow4Rb49QaCEdkl2KKYscdQHQm6bMJ+l4XPY3Cd9PCeeJTsHPIDJ60lzXbeRgs6sx/rpw==
-  /@mui/icons-material/5.15.21_8c6b3ece741e76b01966858be4d369f7:
+      integrity: sha512-8SLffXYPRVpcZx5QzxNE8fytTqzp+IuU3deZbQWg/vSaTlDpR5YVrQ4qQtXTi5cRdhOufV5INylmwlKK+//nPw==
+  /@mui/icons-material/5.16.0_c1ac960125f325e1a774f8f742694be4:
     dependencies:
       '@babel/runtime': 7.24.7
-      '@mui/material': 5.15.21_5f1b0501316ce2e9f127319362e3863c
+      '@mui/material': 5.16.0_5f1b0501316ce2e9f127319362e3863c
       react: 18.3.1
     dev: false
     engines:
@@ -2352,17 +2352,17 @@ packages:
       '@types/react':
         optional: true
     resolution:
-      integrity: sha512-yqkq1MbdkmX5ZHyvZTBuAaA6RkvoqkoAgwBSx9Oh0L0jAfj9T/Ih/NhMNjkl8PWVSonjfDUkKroBnjRyo/1M9Q==
-  /@mui/material/5.15.21_5f1b0501316ce2e9f127319362e3863c:
+      integrity: sha512-6ISoOhkp9w5gD0PEW9JklrcbyARDkFWNTBdwXZ1Oy5IGlyu9B0zG0hnUIe4H17IaF1Vgj6C8VI+v4tkSdK0veg==
+  /@mui/material/5.16.0_5f1b0501316ce2e9f127319362e3863c:
     dependencies:
       '@babel/runtime': 7.24.7
       '@emotion/react': 11.11.4_react@18.3.1
       '@emotion/styled': 11.11.5_05d97456fd23f20ce680d51e0c1d6761
       '@mui/base': 5.0.0-beta.40_react-dom@18.3.1+react@18.3.1
-      '@mui/core-downloads-tracker': 5.15.21
-      '@mui/system': 5.15.20_c4808439629e0e0e232e0780039a8ebc
+      '@mui/core-downloads-tracker': 5.16.0
+      '@mui/system': 5.16.0_c4808439629e0e0e232e0780039a8ebc
       '@mui/types': 7.2.14
-      '@mui/utils': 5.15.20_react@18.3.1
+      '@mui/utils': 5.16.0_react@18.3.1
       '@types/react-transition-group': 4.4.10
       clsx: 2.1.1
       csstype: 3.1.3
@@ -2388,11 +2388,11 @@ packages:
       '@types/react':
         optional: true
     resolution:
-      integrity: sha512-nTyCcgduKwHqiuQ/B03EQUa+utSMzn2sQp0QAibsnYe4tvc3zkMbO0amKpl48vhABIY3IvT6w9615BFIgMt0YA==
-  /@mui/private-theming/5.15.20_react@18.3.1:
+      integrity: sha512-DbR1NckTLpjt9Zut9EGQ70th86HfN0BYQgyYro6aXQrNfjzSwe3BJS1AyBQ5mJ7TdL6YVRqohfukxj9JlqZZUg==
+  /@mui/private-theming/5.16.0_react@18.3.1:
     dependencies:
       '@babel/runtime': 7.24.7
-      '@mui/utils': 5.15.20_react@18.3.1
+      '@mui/utils': 5.16.0_react@18.3.1
       prop-types: 15.8.1
       react: 18.3.1
     dev: false
@@ -2405,7 +2405,7 @@ packages:
       '@types/react':
         optional: true
     resolution:
-      integrity: sha512-BK8F94AIqSrnaPYXf2KAOjGZJgWfvqAVQ2gVR3EryvQFtuBnG6RwodxrCvd3B48VuMy6Wsk897+lQMUxJyk+6g==
+      integrity: sha512-sYpubkO1MZOnxNyVOClrPNOTs0MfuRVVnAvCeMaOaXt6GimgQbnUcshYv2pSr6PFj+Mqzdff/FYOBceK8u5QgA==
   /@mui/styled-engine/5.15.14_c4808439629e0e0e232e0780039a8ebc:
     dependencies:
       '@babel/runtime': 7.24.7
@@ -2429,15 +2429,15 @@ packages:
         optional: true
     resolution:
       integrity: sha512-RILkuVD8gY6PvjZjqnWhz8fu68dVkqhM5+jYWfB5yhlSQKg+2rHkmEwm75XIeAqI3qwOndK6zELK5H6Zxn4NHw==
-  /@mui/system/5.15.20_c4808439629e0e0e232e0780039a8ebc:
+  /@mui/system/5.16.0_c4808439629e0e0e232e0780039a8ebc:
     dependencies:
       '@babel/runtime': 7.24.7
       '@emotion/react': 11.11.4_react@18.3.1
       '@emotion/styled': 11.11.5_05d97456fd23f20ce680d51e0c1d6761
-      '@mui/private-theming': 5.15.20_react@18.3.1
+      '@mui/private-theming': 5.16.0_react@18.3.1
       '@mui/styled-engine': 5.15.14_c4808439629e0e0e232e0780039a8ebc
       '@mui/types': 7.2.14
-      '@mui/utils': 5.15.20_react@18.3.1
+      '@mui/utils': 5.16.0_react@18.3.1
       clsx: 2.1.1
       csstype: 3.1.3
       prop-types: 15.8.1
@@ -2458,7 +2458,7 @@ packages:
       '@types/react':
         optional: true
     resolution:
-      integrity: sha512-LoMq4IlAAhxzL2VNUDBTQxAb4chnBe8JvRINVNDiMtHE2PiPOoHlhOPutSxEbaL5mkECPVWSv6p8JEV+uykwIA==
+      integrity: sha512-9YbkC2m3+pNumAvubYv+ijLtog6puJ0fJ6rYfzfLCM47pWrw3m+30nXNM8zMgDaKL6vpfWJcCXm+LPaWBpy7sw==
   /@mui/types/7.2.14:
     dev: false
     peerDependencies:
@@ -2468,7 +2468,7 @@ packages:
         optional: true
     resolution:
       integrity: sha512-MZsBZ4q4HfzBsywtXgM1Ksj6HDThtiwmOKUXH1pKYISI9gAVXCNHNpo7TlGoGrBaYWZTdNoirIN7JsQcQUjmQQ==
-  /@mui/utils/5.15.20_react@18.3.1:
+  /@mui/utils/5.16.0_react@18.3.1:
     dependencies:
       '@babel/runtime': 7.24.7
       '@types/prop-types': 15.7.12
@@ -2485,7 +2485,7 @@ packages:
       '@types/react':
         optional: true
     resolution:
-      integrity: sha512-mAbYx0sovrnpAu1zHc3MDIhPqL8RPVC5W5xcO1b7PiSCJPtckIZmBkp8hefamAvUiAV8gpfMOM6Zb+eSisbI2A==
+      integrity: sha512-kLLi5J1xY+mwtUlMb8Ubdxf4qFAA1+U7WPBvjM/qQ4CIwLCohNb0sHo1oYPufjSIH/Z9+dhVxD7dJlfGjd1AVA==
   /@nicolo-ribaudo/eslint-scope-5-internals/5.1.1-v1:
     dependencies:
       eslint-scope: 5.1.1
@@ -11863,8 +11863,8 @@ packages:
 specifiers:
   '@emotion/react': ^11.11.4
   '@emotion/styled': ^11.11.5
-  '@mui/icons-material': ^5.15.21
-  '@mui/material': ^5.15.21
+  '@mui/icons-material': ^5.16.0
+  '@mui/material': ^5.16.0
   '@reduxjs/toolkit': ^2.2.6
   '@testing-library/jest-dom': 5.17.0
   '@testing-library/react': 13.4.0
